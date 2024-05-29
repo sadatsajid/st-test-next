@@ -8,11 +8,11 @@ const Navbar = dynamic(() => import("./presentation/ui/Navbar"), {
   loading: () => <LoadingPlaceholder />,
 });
 const Content = dynamic(() => import("./presentation/ui/Content"), { 
-  ssr: true, 
+  ssr: false, 
   loading: LoadingPlaceholder 
 });
 const Sidebar = dynamic(() => import("./presentation/ui/Sidebar"), { 
-  ssr: true, 
+  ssr: false, 
   loading: LoadingPlaceholder 
 });
 
